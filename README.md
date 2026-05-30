@@ -1,27 +1,22 @@
 # belajarESP32-S3-N16R8
 
-Repository ini adalah catatan perjalanan belajarku memakai **ESP32-S3-N16R8**.  
+Bismillahirrahmanirrahim, Assalamualaikum Warahmatullahi Wabarokatuh.
+Hai semua, namaku Muhammad Dionnaufal Ar-Raafi'.
+Repository ini adalah catatan perjalanan belajarku ngulik **ESP32-S3-N16R8**.  
 Targetnya bukan cuma “nyoba nyala”, tapi benar-benar dipakai buat **belajar mikrokontroler**, **eksperimen sebanyak mungkin**, lalu didokumentasikan dengan rapi.
 
 Aku beli board ini buat dipasang, dicoba, didokumentasikan, dilaporkan hasilnya, dibongkar lagi kalau perlu, lalu diulang sampai benar-benar paham.  
 Intinya: **belajar lewat praktik, trial-error, dan dokumentasi**.
 
----
-
 ## Kenapa repo ini dibuat?
 
 Aku pengen punya satu tempat untuk:
-
 - nyimpen catatan belajar ESP32-S3-N16R8
 - dokumentasi setup dan wiring
 - nyatet error, solusi, dan hal-hal yang kepelajari
 - bikin laporan kecil tiap eksperimen / project
 - nyimpen hasil bongkar-pasang dan evaluasi setelah ngetes hardware atau kode
 - jadi arsip perkembangan dari project sederhana sampai yang lebih serius
-
-Repo ini sengaja dibuat sebagai **lab pribadi + jurnal belajar**.
-
----
 
 ## Tujuan utama
 
@@ -43,13 +38,13 @@ Kurang lebih alurnya akan seperti ini:
 
 1. **Pasang**
    - install tools
-   - konek board
+   - conect board
    - cek board kebaca
    - upload program sederhana
 
 2. **Uji coba**
    - tes fitur dasar
-   - tes pin, LED, tombol, sensor, buzzer, relay, display, dan lain-lain
+   - tes komponen
    - lihat apa yang jalan dan apa yang belum
 
 3. **Dokumentasi**
@@ -71,41 +66,6 @@ Kurang lebih alurnya akan seperti ini:
    - cek lagi kesalahan wiring atau logika program
    - revisi
    - coba ulang dengan versi yang lebih baik
-
----
-
-## Isi repo
-
-Struktur repo direncanakan kurang lebih seperti ini:
-
-```bash
-belajarESP32-S3-N16R8/
-├── README.md
-├── docs/
-│   ├── setup/
-│   ├── wiring/
-│   ├── laporan/
-│   └── troubleshooting/
-├── projects/
-│   ├── 01-blink
-│   ├── 02-serial-monitor
-│   ├── 03-button-input
-│   ├── 04-pwm-led
-│   ├── 05-buzzer
-│   ├── 06-dht-sensor
-│   ├── 07-oled-display
-│   ├── 08-wifi-test
-│   └── dst...
-├── assets/
-│   ├── images/
-│   └── diagrams/
-└── notes/
-    ├── pembelajaran.md
-    ├── error-log.md
-    └── ide-project.md
-```
-
-Struktur ini bisa berubah seiring perkembangan belajar.
 
 ---
 
@@ -213,11 +173,11 @@ Supaya repo ini tetap berguna, aku pengen pegang beberapa prinsip:
 Hal yang paling pengen aku dapetin dari repo ini:
 
 - ngerti alur kerja mikrokontroler
-- makin pede baca datasheet / referensi
+- ngerti baca datasheet / referensi
 - ngerti hubungan hardware dan software
 - bisa troubleshooting sendiri
-- punya portofolio project nyata
-- punya dokumentasi yang bisa dibaca lagi kapan pun
+- punya portofolio project
+- punya dokumentasi yang bisa dibaca lagi kapanpun dimanapun
 
 ---
 
@@ -233,18 +193,7 @@ Sebagian besar justru akan berisi:
 - revisi project
 - pembelajaran dari kegagalan
 
-Dan itu memang tujuan utamanya.
-
----
-
-## Penutup
-
-Repo **belajarESP32-S3-N16R8** ini adalah tempat buat belajar serius tapi tetap santai.  
-Bukan cuma buat bikin project, tapi buat membangun kebiasaan:
-
-**coba → gagal → catat → perbaiki → ulang → paham.**
-
-Kalau nanti repo ini makin penuh, semoga itu berarti proses belajarnya juga makin matang.
+Dan emang itu tujuannya.
 
 ---
 
